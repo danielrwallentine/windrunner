@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "windrunner",
+  "version": "${version}",
+  "name": "Windrunner",
+  "description": "",
+  "authors": [
+    "DanielW"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/windrunner/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.dekuscrub.windrunner.Windrunner"
+    ]
+  },
+  "mixins": [
+    "mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.7",
+    "fabric": "*",
+    "minecraft": "1.18.x"
+  }
+}
